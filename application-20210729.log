@@ -1,0 +1,1165 @@
+2021-07-29 17:25:38.480 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ Help the railroad company provide its customers with debugrmation about the train routes
+2021-07-29 17:25:38.485 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ Start Loading Valid Trains Routes 
+2021-07-29 17:25:38.490 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: AB5
+2021-07-29 17:25:38.491 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: A
+2021-07-29 17:25:38.491 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: B
+2021-07-29 17:25:38.491 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 5
+
+2021-07-29 17:25:38.493 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: BC4
+2021-07-29 17:25:38.493 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: B
+2021-07-29 17:25:38.494 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: C
+2021-07-29 17:25:38.495 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 4
+
+2021-07-29 17:25:38.495 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: CD8
+2021-07-29 17:25:38.496 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: C
+2021-07-29 17:25:38.496 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: D
+2021-07-29 17:25:38.497 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 8
+
+2021-07-29 17:25:38.497 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: DC8
+2021-07-29 17:25:38.497 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: D
+2021-07-29 17:25:38.498 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: C
+2021-07-29 17:25:38.498 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 8
+
+2021-07-29 17:25:38.499 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: DE6
+2021-07-29 17:25:38.499 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: D
+2021-07-29 17:25:38.500 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: E
+2021-07-29 17:25:38.501 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 6
+
+2021-07-29 17:25:38.501 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: AD5
+2021-07-29 17:25:38.502 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: A
+2021-07-29 17:25:38.502 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: D
+2021-07-29 17:25:38.505 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 5
+
+2021-07-29 17:25:38.506 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: CE2
+2021-07-29 17:25:38.507 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: C
+2021-07-29 17:25:38.509 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: E
+2021-07-29 17:25:38.510 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 2
+
+2021-07-29 17:25:38.510 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: EB3
+2021-07-29 17:25:38.511 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: E
+2021-07-29 17:25:38.512 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: B
+2021-07-29 17:25:38.512 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 3
+
+2021-07-29 17:25:38.513 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - str_route: AE7
+2021-07-29 17:25:38.515 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting Town: A
+2021-07-29 17:25:38.516 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending Town: E
+2021-07-29 17:25:38.516 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - edgeDistance: 7
+
+2021-07-29 17:25:38.518 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Trains Routes Directed Graph in a HashMap: 
+{A=[town: B distance: 5, town: D distance: 5, town: E distance: 7], B=[town: C distance: 4], C=[town: D distance: 8, town: E distance: 2], D=[town: C distance: 8, town: E distance: 6], E=[town: B distance: 3]}
+
+2021-07-29 17:25:38.518 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ Done Loading Valid Trains Routes 
+2021-07-29 17:25:38.519 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ The distance of the route A-B-C
+2021-07-29 17:25:38.519 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.520 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Towns in train route (display in traveling order): [A, B, C]
+2021-07-29 17:25:38.523 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.523 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'A' to town 'B'?
+2021-07-29 17:25:38.524 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 5
+2021-07-29 17:25:38.524 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 5
+2021-07-29 17:25:38.524 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.525 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.528 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'B' to town 'C'?
+2021-07-29 17:25:38.529 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 4
+2021-07-29 17:25:38.530 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 9
+2021-07-29 17:25:38.530 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.531 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train's total travel distance from starting town 'A' to ending town 'C' was 9
+2021-07-29 17:25:38.531 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.532 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #1: 9
+2021-07-29 17:25:38.532 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ The distance of the route A-D
+2021-07-29 17:25:38.532 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.532 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Towns in train route (display in traveling order): [A, D]
+2021-07-29 17:25:38.534 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.536 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'A' to town 'D'?
+2021-07-29 17:25:38.536 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 5
+2021-07-29 17:25:38.536 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 5
+2021-07-29 17:25:38.537 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.537 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train's total travel distance from starting town 'A' to ending town 'D' was 5
+2021-07-29 17:25:38.538 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.538 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #2: 5
+2021-07-29 17:25:38.538 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ The distance of the route A-D-C
+2021-07-29 17:25:38.539 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.539 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Towns in train route (display in traveling order): [A, D, C]
+2021-07-29 17:25:38.539 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.540 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'A' to town 'D'?
+2021-07-29 17:25:38.540 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 5
+2021-07-29 17:25:38.540 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 5
+2021-07-29 17:25:38.540 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.541 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.541 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'D' to town 'C'?
+2021-07-29 17:25:38.541 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 8
+2021-07-29 17:25:38.541 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 13
+2021-07-29 17:25:38.542 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.542 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train's total travel distance from starting town 'A' to ending town 'C' was 13
+2021-07-29 17:25:38.542 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.542 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #3: 13
+2021-07-29 17:25:38.543 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ The distance of the route A-E-B-C-D
+2021-07-29 17:25:38.543 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.543 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Towns in train route (display in traveling order): [A, E, B, C, D]
+2021-07-29 17:25:38.543 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.544 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'A' to town 'E'?
+2021-07-29 17:25:38.544 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 7
+2021-07-29 17:25:38.544 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 7
+2021-07-29 17:25:38.544 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.544 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.545 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'E' to town 'B'?
+2021-07-29 17:25:38.545 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 3
+2021-07-29 17:25:38.545 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 10
+2021-07-29 17:25:38.545 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.546 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.549 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'B' to town 'C'?
+2021-07-29 17:25:38.549 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 4
+2021-07-29 17:25:38.549 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 14
+2021-07-29 17:25:38.550 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.550 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.550 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'C' to town 'D'?
+2021-07-29 17:25:38.550 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 8
+2021-07-29 17:25:38.551 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 22
+2021-07-29 17:25:38.551 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.551 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train's total travel distance from starting town 'A' to ending town 'D' was 22
+2021-07-29 17:25:38.551 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.551 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #4: 22
+2021-07-29 17:25:38.552 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - ------ The distance of the route A-E-D
+2021-07-29 17:25:38.552 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.552 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Towns in train route (display in traveling order): [A, E, D]
+2021-07-29 17:25:38.553 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.553 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'A' to town 'E'?
+2021-07-29 17:25:38.553 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, with a distance equal to 7
+2021-07-29 17:25:38.553 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - The train travel distance so far is 7
+2021-07-29 17:25:38.554 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - --- --- --- --- --- ---
+2021-07-29 17:25:38.554 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.554 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is there a train route from town 'E' to town 'D'?
+2021-07-29 17:25:38.554 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No
+2021-07-29 17:25:38.555 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+
+2021-07-29 17:25:38.555 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #5: NO SUCH ROUTE
+2021-07-29 17:25:38.555 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - The number of trips starting at C and ending at C with a maximum of 3 stops.
+2021-07-29 17:25:38.555 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - With the given data, there are two such trips: C-D-C (2 stops) and C-E-B-C (3 stops).
+2021-07-29 17:25:38.560 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.565 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.566 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.566 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 0 with 3 number of stops
+2021-07-29 17:25:38.567 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.567 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.567 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.567 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.568 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.568 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.568 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.568 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 3 number of stops
+2021-07-29 17:25:38.568 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.569 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.569 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '1' ^^^ for maximum stops ^^^
+2021-07-29 17:25:38.569 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.569 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.570 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.570 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.570 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.570 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.570 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.571 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.571 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.571 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.571 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.572 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.572 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.572 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.572 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.573 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.573 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.573 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.573 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.574 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.574 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.574 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.574 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.575 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.575 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.575 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.576 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.580 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.580 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.581 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.581 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.582 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.582 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.583 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.583 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.583 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.583 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.584 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.584 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.584 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.584 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.584 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.585 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.585 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.585 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.585 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.585 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.586 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 3 number of stops
+2021-07-29 17:25:38.586 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.586 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.586 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.587 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.587 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.587 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.587 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.588 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.588 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.588 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.588 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '2' ^^^ for maximum stops ^^^
+2021-07-29 17:25:38.589 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.589 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.589 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.589 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.603 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.603 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.603 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.604 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.604 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #6: 2
+2021-07-29 17:25:38.604 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.604 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.604 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.605 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 0 with 3 number of stops
+2021-07-29 17:25:38.605 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.607 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.618 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.618 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.618 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.619 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.619 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.619 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 3 number of stops
+2021-07-29 17:25:38.619 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.619 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.620 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '1' ^^^ for maximum stops ^^^
+2021-07-29 17:25:38.620 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.620 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.620 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.620 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.621 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.622 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.622 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.622 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.622 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.623 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.623 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.623 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.623 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.623 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.624 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.624 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.624 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.624 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.631 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.631 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.631 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.632 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.632 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.632 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.632 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.633 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.633 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.633 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.634 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.634 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.636 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.636 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.636 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.636 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.637 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.637 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.637 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.637 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.637 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.638 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.638 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.638 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.638 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 3 number of stops
+2021-07-29 17:25:38.638 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.639 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.639 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.640 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.640 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.640 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.640 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.641 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 3 number of stops
+2021-07-29 17:25:38.641 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.641 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.641 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '2' ^^^ for maximum stops ^^^
+2021-07-29 17:25:38.641 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 3 number of stops
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.642 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.643 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.645 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - Output #6: 2
+
+2021-07-29 17:25:38.650 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - The number of trips starting at A and ending at C with exactly 4 stops.
+2021-07-29 17:25:38.652 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - With the data, there are three such trips: A to C (via B,C,D); A to C (via D,C,D); and A to C (via D,E,B).
+2021-07-29 17:25:38.652 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.653 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town A
+2021-07-29 17:25:38.656 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.658 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 0 with 4 number of stops
+2021-07-29 17:25:38.658 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.659 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.659 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.659 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.659 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.659 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.660 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.660 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 4 number of stops
+2021-07-29 17:25:38.660 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.660 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment the trips counter
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.661 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 4 number of stops
+2021-07-29 17:25:38.662 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.662 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.662 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.662 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.662 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.663 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.663 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.663 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.663 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '1' ^^^ for exact stops ^^^
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.664 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.665 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.665 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.665 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.674 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.674 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.674 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.674 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.674 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.675 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.675 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.675 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.676 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.676 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.676 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.676 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.677 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.677 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.680 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.680 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.680 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.680 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.680 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.681 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.682 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.682 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.682 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.682 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.682 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.683 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.683 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.683 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.683 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 4 number of stops
+2021-07-29 17:25:38.683 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment the trips counter
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.684 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 4 number of stops
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.685 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.686 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.686 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.686 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.686 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.686 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.687 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '2' ^^^ for exact stops ^^^
+2021-07-29 17:25:38.687 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.692 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.692 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.693 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.693 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.694 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.694 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.694 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.694 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.695 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.695 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.695 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.695 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.695 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.696 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.697 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.698 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.698 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.698 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.698 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.701 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 4 number of stops
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.702 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.703 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.703 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.703 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.703 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the trips counter to '3' ^^^ for exact stops ^^^
+2021-07-29 17:25:38.703 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.705 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.705 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.705 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.705 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.706 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.706 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.706 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.706 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.706 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.707 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1 with 4 number of stops
+2021-07-29 17:25:38.708 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.708 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.708 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.708 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.708 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.709 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.709 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.709 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2 with 4 number of stops
+2021-07-29 17:25:38.709 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment the trips counter
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.710 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3 with 4 number of stops
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.711 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, do not increment counter
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.712 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4 with 4 number of stops
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.713 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.713 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #7: 3
+2021-07-29 17:25:38.714 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - The length of the shortest route (in terms of distance to travel) from A to C.
+2021-07-29 17:25:38.714 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.714 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town A
+2021-07-29 17:25:38.714 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.715 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 0
+2021-07-29 17:25:38.715 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.716 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 0
+2021-07-29 17:25:38.716 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'A': [town: B distance: 5, town: D distance: 5, town: E distance: 7]
+2021-07-29 17:25:38.716 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.718 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.719 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town B
+2021-07-29 17:25:38.719 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.719 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.725 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.726 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.726 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1
+2021-07-29 17:25:38.726 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.727 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 5
+2021-07-29 17:25:38.727 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.727 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.728 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '9' < minDistance.get() '999999'?
+2021-07-29 17:25:38.728 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, new the shortest route distance is 9
+2021-07-29 17:25:38.728 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.729 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.729 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.729 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town D
+2021-07-29 17:25:38.730 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.730 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.730 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.730 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.731 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1
+2021-07-29 17:25:38.731 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.731 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 5
+2021-07-29 17:25:38.731 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.731 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.732 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '13' < minDistance.get() '9'?
+2021-07-29 17:25:38.732 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, keep current shortest route distance
+2021-07-29 17:25:38.732 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town C
+2021-07-29 17:25:38.732 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.733 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.733 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.733 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.733 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2
+2021-07-29 17:25:38.733 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.734 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 13
+2021-07-29 17:25:38.734 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.734 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.734 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.735 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.736 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.736 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town E
+2021-07-29 17:25:38.736 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.736 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.736 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 15
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.737 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.738 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.738 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town B
+2021-07-29 17:25:38.738 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.738 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.739 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.739 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.739 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4
+2021-07-29 17:25:38.739 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.739 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 18
+2021-07-29 17:25:38.740 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.740 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.740 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '22' < minDistance.get() '9'?
+2021-07-29 17:25:38.740 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, keep current shortest route distance
+2021-07-29 17:25:38.741 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.741 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.741 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.741 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.741 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.742 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town E
+2021-07-29 17:25:38.742 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.742 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.742 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.742 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 11
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town B
+2021-07-29 17:25:38.743 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 14
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.744 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '18' < minDistance.get() '9'?
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, keep current shortest route distance
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town C
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 18
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.745 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.746 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town E
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.747 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 7
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town B
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.748 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 10
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '14' < minDistance.get() '9'?
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, keep current shortest route distance
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town C
+2021-07-29 17:25:38.749 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 14
+2021-07-29 17:25:38.750 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.751 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.751 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.751 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town D
+2021-07-29 17:25:38.751 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 4
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 9 ***
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 22
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' < minDistance.get() '9'?
+2021-07-29 17:25:38.752 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, keep current shortest route distance
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.753 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #8: 9
+2021-07-29 17:25:38.753 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - The length of the shortest route (in terms of distance to travel) from B to B.
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town B
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 0
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 0
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'B'?
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.754 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town C
+2021-07-29 17:25:38.755 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.755 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.755 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.755 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town B
+2021-07-29 17:25:38.755 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 1
+2021-07-29 17:25:38.765 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.767 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 4
+2021-07-29 17:25:38.769 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.771 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'B'?
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town D
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.772 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town B
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 12
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'B'?
+2021-07-29 17:25:38.773 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'B'?
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town E
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town B
+2021-07-29 17:25:38.774 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 3
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 999999 ***
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 18
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'B'?
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '21' < minDistance.get() '999999'?
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, new the shortest route distance is 21
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'B'?
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue does not contain the next town E
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.775 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town B
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Queue with routes size 2
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Minimum distance 21 ***
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 6
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'B'?
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '9' < minDistance.get() '21'?
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, new the shortest route distance is 9
+2021-07-29 17:25:38.776 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.777 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.777 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #9: 9
+2021-07-29 17:25:38.777 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - The number of different routes from C to C with a distance of less than 30.
+2021-07-29 17:25:38.777 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDriver - With the given data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC
+2021-07-29 17:25:38.777 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.777 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.778 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.778 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.778 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 0 ***
+2021-07-29 17:25:38.778 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 0
+2021-07-29 17:25:38.779 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.779 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '8' >= maxDistance '30'?
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.780 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.783 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.794 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 0 ***
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 8
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '16' >= maxDistance '30'?
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.795 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.796 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '1' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.796 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.796 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.796 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.796 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.797 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.797 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 1 ***
+2021-07-29 17:25:38.797 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 16
+2021-07-29 17:25:38.800 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.800 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '24' >= maxDistance '30'?
+2021-07-29 17:25:38.800 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.800 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.801 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.801 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.801 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.801 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.803 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.803 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 1 ***
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 24
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '32' >= maxDistance '30'?
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.804 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' >= maxDistance '30'?
+2021-07-29 17:25:38.805 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.805 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.805 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '18' >= maxDistance '30'?
+2021-07-29 17:25:38.805 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 1 ***
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 18
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '21' >= maxDistance '30'?
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.806 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 1 ***
+2021-07-29 17:25:38.807 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 21
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '25' >= maxDistance '30'?
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '2' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.811 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 2 ***
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 25
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '33' >= maxDistance '30'?
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '27' >= maxDistance '30'?
+2021-07-29 17:25:38.812 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 6 ########
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 2 ***
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 27
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.813 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' >= maxDistance '30'?
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 6 #########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '14' >= maxDistance '30'?
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.814 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 2 ***
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 14
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '17' >= maxDistance '30'?
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 2 ***
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 17
+2021-07-29 17:25:38.815 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '21' >= maxDistance '30'?
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '3' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 21
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.816 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '29' >= maxDistance '30'?
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 29
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '37' >= maxDistance '30'?
+2021-07-29 17:25:38.817 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '35' >= maxDistance '30'?
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '23' >= maxDistance '30'?
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.818 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 23
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '26' >= maxDistance '30'?
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 6 ########
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 26
+2021-07-29 17:25:38.819 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' >= maxDistance '30'?
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 6 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '2' >= maxDistance '30'?
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 1 ########
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.820 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.826 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.826 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.826 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.826 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 2
+2021-07-29 17:25:38.826 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.827 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '5' >= maxDistance '30'?
+2021-07-29 17:25:38.827 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.827 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.827 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.829 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 2 ########
+2021-07-29 17:25:38.829 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 3 ***
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 5
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '9' >= maxDistance '30'?
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '4' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 3 ########
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.830 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 4 ***
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 9
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '17' >= maxDistance '30'?
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.831 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 4 ***
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 17
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '25' >= maxDistance '30'?
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '5' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.832 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 25
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '33' >= maxDistance '30'?
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '27' >= maxDistance '30'?
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 6 ########
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.833 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 27
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' >= maxDistance '30'?
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 6 #########
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '23' >= maxDistance '30'?
+2021-07-29 17:25:38.834 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.835 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 23
+2021-07-29 17:25:38.844 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.844 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '26' >= maxDistance '30'?
+2021-07-29 17:25:38.844 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.846 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.846 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 6 ########
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 26
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '30' >= maxDistance '30'?
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 6 #########
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.847 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '11' >= maxDistance '30'?
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 4 ########
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 11
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '14' >= maxDistance '30'?
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 5 ########
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.848 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 5 ***
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 14
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '18' >= maxDistance '30'?
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.849 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '6' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 6 ########
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 6 ***
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 18
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '26' >= maxDistance '30'?
+2021-07-29 17:25:38.854 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'D' equal to ending town 'C'?
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 7 ########
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town D
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 6 ***
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 26
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'D': [town: C distance: 8, town: E distance: 6]
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '34' >= maxDistance '30'?
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '32' >= maxDistance '30'?
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.855 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 7 #########
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '20' >= maxDistance '30'?
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 7 ########
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 6 ***
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 20
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '23' >= maxDistance '30'?
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'B' equal to ending town 'C'?
+2021-07-29 17:25:38.856 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 8 ########
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town B
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 6 ***
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 23
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'B': [town: C distance: 4]
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '27' >= maxDistance '30'?
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'C' equal to ending town 'C'?
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, increment the routes counter to '7' ^^^ for maximum distance ^^^
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 9 ########
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town C
+2021-07-29 17:25:38.857 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 7 ***
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 27
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'C': [town: D distance: 8, town: E distance: 2]
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '35' >= maxDistance '30'?
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '29' >= maxDistance '30'?
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, execute below lines of code within the for loop
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Is the next town 'E' equal to ending town 'C'?
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - No, therefore, no need to attempt to calculate the shortest route distance
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######## Start recursion 10 ########
+2021-07-29 17:25:38.858 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - +++++++++++++++++++++++++++++++++++
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Starting or current town E
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Ending town C
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Maximum route distance 30
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - *** Different Routes counter 7 ***
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Sum distance 29
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Available train routes from starting or current town 'E': [town: B distance: 3]
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, is sumDistance + route.getDistance() '32' >= maxDistance '30'?
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - Yes, continue (go back to beginning of for loop) with maxDistance equal to 30
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 10 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 9 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 8 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 7 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 6 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 5 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 4 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 3 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 2 #########
+2021-07-29 17:25:38.859 [main] DEBUG com.ccc.routes.recursion.TrainsRoutesDirectedGraph - ######### End recursion 1 #########
+2021-07-29 17:25:38.859 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #10: 7
+2021-07-29 17:36:51.689 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #1: 9
+2021-07-29 17:36:51.694 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #2: 5
+2021-07-29 17:36:51.695 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #3: 13
+2021-07-29 17:36:51.696 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #4: 22
+2021-07-29 17:36:51.697 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #5: NO SUCH ROUTE
+2021-07-29 17:36:51.698 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #6: 2
+2021-07-29 17:36:51.699 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #7: 3
+2021-07-29 17:36:51.702 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #8: 9
+2021-07-29 17:36:51.703 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #9: 9
+2021-07-29 17:36:51.705 [main] INFO  com.ccc.routes.recursion.TrainsRoutesDriver - Output #10: 7
